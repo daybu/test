@@ -1,0 +1,138 @@
+.menu{
+	
+}
+.container {
+    width: 1350px;
+    background: #8b8bde;
+    margin: auto;
+    height: 100px;
+}
+.container-part{}
+.logo {
+    width: 20%;
+    float: left;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.bar {
+    width: 80%;
+	float: left;
+	padding-top: 30px;
+}
+.bar ul {
+    list-style: none;
+    display: inline;
+}
+.bar ul li {
+    display: inline;
+    margin-right: 80px;
+    position: relative;
+}
+.bar ul li:hover ul.submenu {
+	visibility: visible;
+	opacity: 0.7;
+}
+.bar ul li a:hover{
+	background: black;
+	color:white;
+}
+
+.bar ul li a {
+    text-decoration: none;
+    font-size: 36px;
+	color: black;
+}
+.bar ul li ul.submenu {
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 250px;
+    background: #8b8bde;
+    margin: 0;
+    padding: 0;
+	visibility: hidden;
+	opacity: 0;
+}
+.bar ul li ul.submenu li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.bar ul li ul.submenu li a {
+    display: block;
+    padding: 7px;
+}
+.banner-part {
+    width: 1350px;
+    margin: auto;
+}
+.banner-part img{
+	width: 100%
+}
+.banner-part h1 {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 26px;
+    border: 1px solid gray;
+    margin: 0 420px;
+    padding: 0px;
+    box-shadow: 3px 5px;
+    background: yellow;
+	margin-top: 15px;
+    margin-bottom: 20px;
+}
+.gallery-part {
+    margin: auto;
+    width: 1350px;
+    height: 730px;
+}
+.singel-gallery {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.singel-gallery img {
+    width: 100%;
+}
+.singel-gallery h1{}
+.singel-gallery p {
+    text-align: justify;
+}
+.footer-area{}
+.footer-part {
+    width: 1350px;
+    background: #80808061;
+}
+.left {
+    width: 50%;
+    float: left;
+	background: #bfb7b7;
+}
+.left ul {
+    list-style: none;
+}
+.left ul li {
+    display: inline;
+    margin-left: 30px;
+}
+.left ul li a {
+    text-decoration: none;
+    color: black;
+}
+.right {
+    width: 50%;
+    float: left;
+    background: #bfb7b7;
+}
+.right ul {
+    list-style: none;
+}
+.right ul li{
+	display:inline;
+	margin-right: 30px;
+}
+.right ul li a{}
